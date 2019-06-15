@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51C44DAFD9DD142AC64B9FAC /* Pods_audacityIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF7C9E12D907E960EA0619A /* Pods_audacityIt.framework */; };
 		CE94656622B4AC7F0074AE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94656522B4AC7F0074AE15 /* AppDelegate.swift */; };
 		CE94656822B4AC7F0074AE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94656722B4AC7F0074AE15 /* ViewController.swift */; };
 		CE94656B22B4AC7F0074AE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE94656922B4AC7F0074AE15 /* Main.storyboard */; };
 		CE94656D22B4AC800074AE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE94656C22B4AC800074AE15 /* Assets.xcassets */; };
 		CE94657022B4AC800074AE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE94656E22B4AC800074AE15 /* LaunchScreen.storyboard */; };
+		CE94657A22B4BAAC0074AE15 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94657922B4BAAC0074AE15 /* SignInViewController.swift */; };
+		CE94657E22B4BC330074AE15 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94657D22B4BC330074AE15 /* SignUpViewController.swift */; };
+		CE94658122B4C7980074AE15 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94658022B4C7980074AE15 /* LocationViewController.swift */; };
+		CE94658322B4C8760074AE15 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94658222B4C8760074AE15 /* HomeViewController.swift */; };
+		CE94658622B4DB0E0074AE15 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94658522B4DB0E0074AE15 /* SignInModel.swift */; };
+		CE94658822B4FA9C0074AE15 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE94658722B4FA9C0074AE15 /* SignUpModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B9BBF353CED071FA313713F /* Pods-audacityIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audacityIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-audacityIt/Pods-audacityIt.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF7C9E12D907E960EA0619A /* Pods_audacityIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_audacityIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E2D5AB0BA29FB7D3A71D36 /* Pods-audacityIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audacityIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-audacityIt/Pods-audacityIt.release.xcconfig"; sourceTree = "<group>"; };
 		CE94656222B4AC7F0074AE15 /* audacityIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audacityIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE94656522B4AC7F0074AE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE94656722B4AC7F0074AE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		CE94656C22B4AC800074AE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE94656F22B4AC800074AE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE94657122B4AC800074AE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE94657922B4BAAC0074AE15 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE94657D22B4BC330074AE15 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CE94658022B4C7980074AE15 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		CE94658222B4C8760074AE15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE94658522B4DB0E0074AE15 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		CE94658722B4FA9C0074AE15 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51C44DAFD9DD142AC64B9FAC /* Pods_audacityIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AEE2186BDCDFA1A0AE40AB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B9BBF353CED071FA313713F /* Pods-audacityIt.debug.xcconfig */,
+				96E2D5AB0BA29FB7D3A71D36 /* Pods-audacityIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0E14EBD5D3C9305C9596230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF7C9E12D907E960EA0619A /* Pods_audacityIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE94655922B4AC7F0074AE15 = {
 			isa = PBXGroup;
 			children = (
 				CE94656422B4AC7F0074AE15 /* audacityIt */,
 				CE94656322B4AC7F0074AE15 /* Products */,
+				0AEE2186BDCDFA1A0AE40AB2 /* Pods */,
+				B0E14EBD5D3C9305C9596230 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,68 @@
 		CE94656422B4AC7F0074AE15 /* audacityIt */ = {
 			isa = PBXGroup;
 			children = (
+				CE94658422B4D2350074AE15 /* Model */,
+				CE94657F22B4C77A0074AE15 /* Location */,
+				CE94657C22B4BAE60074AE15 /* Home */,
+				CE94657B22B4BACB0074AE15 /* View */,
+				CE94657822B4BA2E0074AE15 /* SignUp */,
+				CE94657722B4BA1C0074AE15 /* SignIn */,
 				CE94656522B4AC7F0074AE15 /* AppDelegate.swift */,
-				CE94656722B4AC7F0074AE15 /* ViewController.swift */,
-				CE94656922B4AC7F0074AE15 /* Main.storyboard */,
 				CE94656C22B4AC800074AE15 /* Assets.xcassets */,
-				CE94656E22B4AC800074AE15 /* LaunchScreen.storyboard */,
 				CE94657122B4AC800074AE15 /* Info.plist */,
 			);
 			path = audacityIt;
+			sourceTree = "<group>";
+		};
+		CE94657722B4BA1C0074AE15 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				CE94657922B4BAAC0074AE15 /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		CE94657822B4BA2E0074AE15 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CE94657D22B4BC330074AE15 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		CE94657B22B4BACB0074AE15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE94656922B4AC7F0074AE15 /* Main.storyboard */,
+				CE94656E22B4AC800074AE15 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE94657C22B4BAE60074AE15 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE94656722B4AC7F0074AE15 /* ViewController.swift */,
+				CE94658222B4C8760074AE15 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE94657F22B4C77A0074AE15 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				CE94658022B4C7980074AE15 /* LocationViewController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		CE94658422B4D2350074AE15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE94658522B4DB0E0074AE15 /* SignInModel.swift */,
+				CE94658722B4FA9C0074AE15 /* SignUpModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE94657422B4AC800074AE15 /* Build configuration list for PBXNativeTarget "audacityIt" */;
 			buildPhases = (
+				1CF28B4D139E5118835707BB /* [CP] Check Pods Manifest.lock */,
 				CE94655E22B4AC7F0074AE15 /* Sources */,
 				CE94655F22B4AC7F0074AE15 /* Frameworks */,
 				CE94656022B4AC7F0074AE15 /* Resources */,
+				F4C5FB25D89EEDD7FE86B643 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +222,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CF28B4D139E5118835707BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-audacityIt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C5FB25D89EEDD7FE86B643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-audacityIt/Pods-audacityIt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-audacityIt/Pods-audacityIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE94655E22B4AC7F0074AE15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE94658122B4C7980074AE15 /* LocationViewController.swift in Sources */,
 				CE94656822B4AC7F0074AE15 /* ViewController.swift in Sources */,
 				CE94656622B4AC7F0074AE15 /* AppDelegate.swift in Sources */,
+				CE94658822B4FA9C0074AE15 /* SignUpModel.swift in Sources */,
+				CE94658622B4DB0E0074AE15 /* SignInModel.swift in Sources */,
+				CE94657E22B4BC330074AE15 /* SignUpViewController.swift in Sources */,
+				CE94657A22B4BAAC0074AE15 /* SignInViewController.swift in Sources */,
+				CE94658322B4C8760074AE15 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +427,7 @@
 		};
 		CE94657522B4AC800074AE15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9BBF353CED071FA313713F /* Pods-audacityIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +446,7 @@
 		};
 		CE94657622B4AC800074AE15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E2D5AB0BA29FB7D3A71D36 /* Pods-audacityIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct SignUpModel {
+    var mobile: String
+    var email: String
+    var full_name: String
+    var pin_code: String
+}

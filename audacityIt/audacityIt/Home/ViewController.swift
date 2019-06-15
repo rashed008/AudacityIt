@@ -23,11 +23,12 @@ class ViewController: UIViewController {
     
     //MARK:Sign In page
     @IBAction func goToSignInPage(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
-        self.navigationController?.pushViewController(vc, animated: true)
-        print("all is well")
-//        let vc = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
-//    self.navigationController?.pushViewController(vc, animated: true)
+        //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        //        let vc = storyboard.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+        //        self.navigationController?.pushViewController(vc, animated: true)
+        //        print("all is well")
+        //        let vc = storyboard?.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+        //    self.navigationController?.pushViewController(vc, animated: true)
     }
     //MARK:Sign Up page
     @IBAction func goToSignUpPage(_ sender: Any) {

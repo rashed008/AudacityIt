@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+
+struct SignInModel {
+    var mobile_no: String
+}
